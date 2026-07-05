@@ -1,1 +1,1 @@
-Source codes of "Multi-Level Priors-Guided Diffusion Model for Extreme Exposure Restoration"
+本项目是论文《Recovering the Unseen: Multi-level Priors-Guided Diffusion for Recovering Brightness-Missing Regions in Extreme Exposure》的相关实现。论文面向极端欠曝光与过曝光场景中由像素截断造成的“亮度缺失区域”，提出多层先验引导扩散模型 MPD：先利用低层亮度先验和亮度感知动态卷积进行逐像素曝光校正，再结合结构语义先验与曝光语义先验，引导扩散模型在缺失区域生成语义一致、光照自然的细节内容。
